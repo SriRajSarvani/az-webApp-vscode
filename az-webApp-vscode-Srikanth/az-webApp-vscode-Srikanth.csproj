@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>az_webApp_vscode_Srikanth</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/a9cd1337-683a-4133-8731-83737b5ba893/resourceGroups/az-group-rg/providers/microsoft.insights/components/az-webApp-vscode-Srikanth</ApplicationInsightsResourceId>
+    <UserSecretsId>9bb5c848-8418-44a8-9a0b-e2706133c6d1</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.17.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
