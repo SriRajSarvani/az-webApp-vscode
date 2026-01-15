@@ -16,10 +16,9 @@ namespace az_webApp_vscode_Srikanth.Pages
         //{
         //    throw new Exception("Testing New insights");
         //}
-        public IActionResult OnGet()
+        public void OnGet()
         {
-            _logger.LogInformation("Privacy page requested");
-            return Page();
+            
             
         }
     }
